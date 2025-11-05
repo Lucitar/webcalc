@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from webcalc.calculadora import Calculadora
 
 app = Flask(__name__)
+
 calc = Calculadora()
 
 @app.route('/add')
